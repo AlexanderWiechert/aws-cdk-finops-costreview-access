@@ -1,6 +1,17 @@
 {
-  "name": "@elastic2ls/finops-access",
+  "name": "@elastic2ls-com/aws-cdk-finops-costreview-access",
   "version": "1.0.0",
+  "description": "AWS CDK construct for setting up IAM user or role for FinOps cost review access",
+  "author": "Alexander Wiechert <alexander@elastic2ls.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elastic2ls-com/aws-cdk-finops-costreview-access.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elastic2ls-com/aws-cdk-finops-costreview-access/issues"
+  },
+  "homepage": "https://github.com/elastic2ls-com/aws-cdk-finops-costreview-access#readme",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -9,6 +20,9 @@
     "package": "npm pack",
     "cdk": "cdk",
     "test": "jest"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.137.0",
@@ -22,3 +36,4 @@
     "typescript": "^4.9.0"
   }
 }
+

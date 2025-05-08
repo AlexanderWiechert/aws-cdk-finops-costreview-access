@@ -1,0 +1,17 @@
+.github/
+bin/
+cdk.out/
+coverage/
+__tests__/
+node_modules/
+*.ts
+*.map
+tsconfig.json
+jest.config.js
+.nvmrc
+.gitignore
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+LICENSE
+
