@@ -1,6 +1,6 @@
 {
   "name": "@elastic2ls-com/aws-cdk-finops-costreview-access",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS CDK construct for setting up IAM user or role for FinOps cost review access",
   "author": "Alexander Wiechert <alexander@elastic2ls.com>",
   "license": "MIT",
