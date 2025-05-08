@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+lib/*.js
+lib/*.d.ts
+lib/*.js.map
+dist/
+coverage/
+
+# CDK outputs
+cdk.out/
+
+# Test outputs
+coverage/
+jest-html-reporters-*.html
+
+# Env files (if used)
+.env
+.env.local
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# Optional git keepers
+*.gitkeep
+
