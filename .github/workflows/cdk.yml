@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Setup Node.js from .nvmrc
         uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
@@ -35,3 +35,4 @@ jobs:
 
       - name: Run CDK tests
         run: npm test || echo "No tests defined"
+
