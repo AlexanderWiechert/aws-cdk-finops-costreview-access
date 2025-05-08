@@ -17,12 +17,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "package": "npm pack",
-    "cdk": "cdk",
-    "test": "jest"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "test": "jest",
+    "package": "npm pack"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.137.0",
