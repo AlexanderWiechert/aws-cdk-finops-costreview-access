@@ -1,4 +1,3 @@
 {
-  "app": "npx ts-node lib/finops-stack.ts"
+  "app": "npx ts-node bin/app.ts"
 }
-
